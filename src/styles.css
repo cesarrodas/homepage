@@ -58,3 +58,10 @@ h1 {
   min-width: calc(100vw);
   min-height: calc(100vh);
 }
+
+.hide {
+  min-width: unset;
+  overflow-x: hidden;
+  max-width: 0.00001px;
+  min-height: calc(100vh);
+}
