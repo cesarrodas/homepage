@@ -1,0 +1,60 @@
+#defaultCanvas0 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -2;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+h1 {
+  font-family: 'Roboto Slab', serif;
+  font-size: 50px;
+}
+
+.content {
+  width: 80%;
+  margin: 0 10%;
+}
+
+.container {
+  display: flex;
+}
+
+.personal-description {
+  font-family: 'Rasa', serif;
+}
+
+.nav-button {
+  position: absolute;
+  top: 50%;
+  background-color: transparent;
+  border: none;
+  padding: 0 4px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+
+.nav-button:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+.right-button {
+  right: 20px;
+}
+
+.left-button {
+  left: 20px;
+}
+
+.page {
+  min-width: calc(100vw);
+  min-height: calc(100vh);
+}
